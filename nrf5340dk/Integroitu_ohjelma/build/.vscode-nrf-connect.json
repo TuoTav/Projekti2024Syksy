@@ -1,0 +1,18 @@
+{
+  "board": "nrf5340dk/nrf5340/cpuapp",
+  "boardRevision": "",
+  "boardDir": "c:/ncs/v2.7.0/zephyr/boards/nordic/nrf5340dk",
+  "shouldBuild": true,
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [
+    "prj.conf"
+  ],
+  "buildDirectory": "build",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [
+    "nrf5340dk_nrf5340_cpuapp_ns.overlay"
+  ],
+  "extraDtcOverlays": []
+}

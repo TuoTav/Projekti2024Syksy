@@ -1,0 +1,13 @@
+# Target labels
+ hci_ipc_subimage
+# Source files and their labels
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/CMakeFiles/hci_ipc_subimage
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/CMakeFiles/hci_ipc_subimage.rule
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/CMakeFiles/hci_ipc_subimage-complete.rule
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/hci_ipc_subimage-prefix/src/hci_ipc_subimage-stamp/hci_ipc_subimage-build.rule
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/hci_ipc_subimage-prefix/src/hci_ipc_subimage-stamp/hci_ipc_subimage-configure.rule
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/hci_ipc_subimage-prefix/src/hci_ipc_subimage-stamp/hci_ipc_subimage-download.rule
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/hci_ipc_subimage-prefix/src/hci_ipc_subimage-stamp/hci_ipc_subimage-install.rule
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/hci_ipc_subimage-prefix/src/hci_ipc_subimage-stamp/hci_ipc_subimage-mkdir.rule
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/hci_ipc_subimage-prefix/src/hci_ipc_subimage-stamp/hci_ipc_subimage-patch.rule
+C:/ncs/Integroitu_ohjelma/build/modules/nrf/samples/hci_ipc_subimage-prefix/src/hci_ipc_subimage-stamp/hci_ipc_subimage-update.rule
