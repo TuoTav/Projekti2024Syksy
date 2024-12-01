@@ -1,0 +1,42 @@
+# Ignore the virtual environment directories (tcp and neuralnetwork)
+tcp/
+neuralnetwork/
+
+# Don't ignore the specific subdirectories inside tcp and neuralnetwork
+!tcp/tcp_ja_kmeans/
+!neuralnetwork/neural/
+
+# If you want to track Python files directly inside these subdirectories
+!tcp/tcp_ja_kmeans/*.py
+!neuralnetwork/neural/*.py
+
+# Ignore typical virtual environment files and directories
+tcp/Lib/
+neuralnetwork/Lib/
+tcp/pyvenv.cfg
+neuralnetwork/pyvenv.cfg
+tcp/share/
+neuralnetwork/share/
+
+# Ignore the .env file (if exists)
+.env
+
+# Ignore the .pytest_cache directory if using pytest
+.pytest_cache/
+
+# Ignore bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other common system and IDE files
+.DS_Store
+*.swp
+*.swo
+*.log
+*.sqlite
+*.pkl
+
