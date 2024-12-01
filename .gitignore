@@ -2,15 +2,13 @@
 tcp/
 neuralnetwork/
 
-# If you want to track Python files directly inside the virtual environments (e.g., custom scripts)
+# Don't ignore the specific subdirectories inside tcp and neuralnetwork
 !tcp/tcp_ja_kmeans/
 !neuralnetwork/neural/
 
-# If there are other specific directories inside the virtual environments that should be tracked (like bin or include)
-!tcp/bin/
-!tcp/include/
-!neuralnetwork/bin/
-!neuralnetwork/include/
+# If you want to track Python files directly inside these subdirectories
+!tcp/tcp_ja_kmeans/*.py
+!neuralnetwork/neural/*.py
 
 # Ignore typical virtual environment files and directories
 tcp/Lib/
@@ -19,8 +17,6 @@ tcp/pyvenv.cfg
 neuralnetwork/pyvenv.cfg
 tcp/share/
 neuralnetwork/share/
-
-
 
 # Ignore the .env file (if exists)
 .env
