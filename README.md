@@ -31,7 +31,7 @@ Protokollat
 
 Haasteet ja huomioitavaa
 
-Bluetooth LE on heikko yhtedeltään ja paketti kooltaan, joten paketti koko kannattaa pitää pienenä ja jos yhteys ei näytä toimivan muistaa liikkuttaa laitteita lähemmäksi. Varsinkin luokka huoneessa, jossa monilla on Bluetooth-laitteita juoksemassa singaali voi saada paljon häiriötä. NRF5340dk- alsutalle koodataan C-kielellä, mikä tekee työstä paljon haastavampaa joten oletan, että tämä viimeinen osio on luultavasti vaikein. K-means-mallissa keskipisteiden initialisaatio on tärkein osa, joten se kannattaa tehdä hyvin. Itse ratkaisin tämän sillä, että jos jokin keskipiste ei ”voita” pisteitä itselleen initialisoidaan kaikki pisteet uudelleen.
+Bluetooth-LE on heikko yhteydeltään ja paketti kooltaan, joten paketti koko kannattaa pitää pienenä. Jos yhteys ei näytä toimivan kannattaa liikkuttaa laitteita lähemmäksi. Varsinkin luokkahuoneessa, jossa on monta Bluetooth-laitetta juoksemassa singaali voi saada paljon häiriötä. NRF5340dk- alsutalle koodataan C-kielellä, mikä tekee työstä paljon haastavampaa joten oletan, että tämä viimeinen osio on luultavasti vaikein. K-means-mallissa keskipisteiden initialisaatio on tärkein osa, joten se kannattaa tehdä hyvin. Itse ratkaisin tämän sillä, että jos jokin keskipiste ei voita pisteitä itselleen initialisoidaan kaikki pisteet uudelleen. 
 
 ### NRF-5340dk aloitus
 
