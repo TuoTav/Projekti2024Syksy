@@ -51,7 +51,7 @@ _KUVA 1. Demo-versio, joka on tehty MySQL-Workbenchissä_
 
 Kun data oli saatu tietokantaan se piti saada sieltä omalle koneelle käyttäen python-skriptiä. Vaihtoehtona oli monenlaisia tapoja, mutta itse päädyin tcp-socket http:n yli vetävään skriptiin. Tämä tarkoitti kuitenkin, että jouduin luomaan http-päätepisteen joka hakisi sensor_values- taulukon tiedot. Jostain syystä tämä toimi vain 8080 portilla, vaikka en ollut kieltänyt 5000 porttia jota kokeilin ensin.
 
-Oma kannettava
+### Oma kannettava
 
 Python-skriptiä käyttäen sain kirjoitettua tietokannan datan CSV-tiedostoon ja tällä datalla voidaan jatkaa seuraavan osaan eli neuroverkon opettamiseen ja sen implementointiin NRF5340dk-laitteelle. Ensimmäisenä täytyi tehdä K-means-algoritmi, joka pystyy optimoimaan mahdollisimman hyvät keskipisteet ryppäille eli clustereille. Esimerkki lopputuloksesta näkyy kuvassa 2. Kun optimaaliset keskipisteet eli centroidit, on löydetty ne tallennetaan Header-tiedostoon.
 
