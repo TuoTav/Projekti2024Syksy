@@ -8,7 +8,7 @@ CHARACTERISTIC_UUID = "00001526-1212-efde-1523-785feabcd123"
 
 
 db_config = {
-    'host': '172.20.241.51',
+    'host': 'XXX.XX.XXX.XX',
     'user': 'remote_users',  
     'passwd': 'your_password',  
     'db': 'ble_data'
