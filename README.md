@@ -44,7 +44,7 @@ Kun nämä toiminnallisuudet ovat todistetusti toiminnassa, seuraavana täytyy s
 ### VM linux ssh-serveri
 
 Linux-serverillä on ideana laittaa pyörimää Apache-palvelin, jossa pyörii SQL-database. Tälläinen löytyy valmiiksi tehtynä myös, mutta omassa tapauksessa päätin tehdä omalle serverilleni toteutuksen. Raspberry Piillä tietysti täytyy kirjautua tähän SQL-palvelimeen, joten kuvassa 1 on tekemäni käyttäjä.
-
+![image](image1.png)
 _KUVA 1. Demo-versio, joka on tehty MySQL-Workbenchissä_
 
 Kun data oli saatu tietokantaan se piti saada sieltä omalle koneelle käyttäen python-skriptiä. Vaihtoehtona oli monenlaisia tapoja, mutta itse päädyin tcp-socket http:n yli vetävään skriptiin. Tämä tarkoitti kuitenkin, että jouduin luomaan http-päätepisteen joka hakisi sensor_values- taulukon tiedot. Jostain syystä tämä toimi vain 8080 portilla, vaikka en ollut kieltänyt 5000 porttia jota kokeilin ensin.
@@ -54,7 +54,7 @@ Oma kannettava
 Python-skriptiä käyttäen sain kirjoitettua tietokannan datan CSV-tiedostoon ja tällä datalla voidaan jatkaa seuraavan osaan eli neuroverkon opettamiseen ja sen implementointiin NRF5340dk-laitteelle. Ensimmäisenä täytyi tehdä K-means-algoritmi, joka pystyy optimoimaan mahdollisimman hyvät keskipisteet ryppäille eli clustereille. Esimerkki lopputuloksesta näkyy kuvassa 2. Kun optimaaliset keskipisteet eli centroidit, on löydetty ne tallennetaan Header-tiedostoon.
 
 
-
+![image](image2.png)
 _KUVA 2. Esimerkki lopullisista keskipisteitä 3D-koordinaatistossa_
 
 Tämän jälkeen lisätehtävä oli opettaa mahdollisimman yksinkertainen Keras-malli mitatulla datalla ja implementoida se uudelleen siten, että se on mahdollisimman lähellä C-kieltä eli ilman, että käyttää Pythonin valmiita funktioita, jotka tekee laskut puolestasi. Tästä mallista myös otetaan painot ja biakset talteen Header-tiedostoon, jotta niitä voidaan hyödyntää viimeisessä vaiheessa.
@@ -67,5 +67,5 @@ Lisätehtävänä on tehdä sama myös Keras-mallille. Kuvassa 3 näkyy lopullin
 
 
 
-
+![image](image3.png)
 _KUVA 3. Lopullinen confusion matrix._
